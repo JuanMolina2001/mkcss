@@ -1,0 +1,17 @@
+.container{
+    position: relative;
+    width: 140px;
+    height: 300px;
+}
+.phone{
+    position: relative;
+    width: 140px;
+    height: 300px;
+}
+.image{
+    top: 24px;
+    left: 7px;
+    position: absolute;
+    width: 127px;
+    height: 254px
+}
