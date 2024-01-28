@@ -5,13 +5,13 @@
     height: 1.25rem;
     border: 1px solid #444444;
     border-radius: 20px;
-    transition: all 0.2s ease-in-out;
     background-image: url('bootstrap-icons/icons/circle-fill.svg');
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
     background-color: #444444;
     filter: invert();
+    transition: all 0.2s ease-in-out;
 }
 .switch:checked{
     background-image: url('bootstrap-icons/icons/circle-fill.svg');

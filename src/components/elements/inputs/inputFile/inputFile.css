@@ -1,0 +1,14 @@
+input[type="file"] {
+  display: none
+}
+
+.inputFile {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.bi-card-image{
+  font-size: 1.5rem;
+  margin-right: 10px;
+}

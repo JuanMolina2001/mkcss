@@ -1,0 +1,15 @@
+#options {
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    box-shadow: 0px 0px 5px 1px rgba(109, 109, 109, 0.63);
+    position: relative;
+    overflow: auto;
+    height: 703px;
+    scrollbar-width: none;
+    width: 10rem;
+}
+
+  #options::-webkit-scrollbar {     
+    display: none;
+  }

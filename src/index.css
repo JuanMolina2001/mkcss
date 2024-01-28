@@ -1,3 +1,37 @@
-i{
-    cursor: pointer;
+:root {
+    --primary-color: #3D3D3D;
+    --secondary-color: #121212;
+    --items-color :#7C7B79;
+    --background-color: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    --secondary-background-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --text-color: #ffffff;
 }
+
+body {
+    background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+/* 
+#121212
+#3D3D3D
+#7C7B79
+#B9B5B4
+*/
+button{
+    background-image: var(--secondary-background-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding-block: 10px;
+}
+button:active{
+    scale: 0.95;
+   }

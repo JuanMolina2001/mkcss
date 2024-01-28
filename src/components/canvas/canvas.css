@@ -1,17 +1,48 @@
-.container{
-    position: relative;
-    width: 140px;
-    height: 300px;
+.container {
+    width:45rem; 
+    height:45rem;
+    background-image: var(--secondary-background-color);
+    border-radius: 20px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.phone{
-    position: relative;
-    width: 140px;
-    height: 300px;
+
+
+.phone {
+    width: 15rem;
+    height: 32.5rem;
 }
-.image{
-    top: 24px;
-    left: 7px;
+
+.phoneImagen {
     position: absolute;
-    width: 127px;
-    height: 254px
+    top: 48px;
+    left: 14px;
+    width: 254px;
+    height: 508px;
+}
+
+.browser {
+    width: 35rem;
+    height: 22rem;
+}
+.browserImagen {
+    width: 550px;
+    height: 400px;
+}
+.android {
+    border-radius: 35px;
+}
+.iphone {
+    border-radius: 55px;
+}
+.macBwDark {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.macBwLight {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }

@@ -1,0 +1,18 @@
+.details>summary {
+    cursor: pointer;
+    
+    list-style: none;
+}
+
+.details{
+    border-bottom: 2px solid #ccc;
+    padding: 0.2rem;
+    transition: all 0.3s ease-in-out;
+}
+.bi-plus::before {
+    transition: transform 0.3s ease-in; 
+}
+
+.open::before {
+    transform: rotate(135deg); 
+}
